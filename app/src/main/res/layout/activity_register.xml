@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.example.ilsasblend.ilsaspedia.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            app:srcCompat="@drawable/ilsaspngg" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="298dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/mName"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/mEmail"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/mPassword"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:orientation="horizontal"
+                android:padding="30dp">
+
+
+                <Button
+                    android:id="@+id/mRegister"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Register" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:text="This application is still under development mode"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

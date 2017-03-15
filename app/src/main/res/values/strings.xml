@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ILSASpedia</string>
+
+    <string name="role_prompt">Choose a role</string>
+
+    <string-array name="role_arrays">
+        <item>Trainer</item>
+        <item>Trainee</item>
+
+    </string-array>
+</resources>

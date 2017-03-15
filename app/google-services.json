@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827221763895",
+    "firebase_url": "https://ilsaspedia-c544b.firebaseio.com",
+    "project_id": "ilsaspedia-c544b",
+    "storage_bucket": "ilsaspedia-c544b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827221763895:android:182c5e9123246085",
+        "android_client_info": {
+          "package_name": "com.example.ilsasblend.ilsaspedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827221763895-0ansnik4k01lr784ip3vmq3l2cjptkc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCioQAnsy3_l0nHcbdzyvkaPLLoWdZiHPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ilsasblend.ilsaspedia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Button1Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button2Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button3Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button4Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button5Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button6Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button7Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button8Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button9Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button10Activity" android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".Button11Activity" android:parentActivityName=".ProfileActivity"></activity>
+    </application>
+
+</manifest>

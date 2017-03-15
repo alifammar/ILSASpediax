@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ilsasblend.ilsaspedia.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background1">
+
+        <ImageView
+            android:id="@+id/mWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/hello1"
+            android:layout_weight="0.06" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="LMS MANUAL GUIDE"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="10dp"
+            android:text="Click on link below to view the e-book"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:elevation="0dp"
+            android:text="Memuat Naik E-CONTENT"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton2"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Pentadbir Fakulti-Masukkan E-CONTENT Dalam Business Event"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="EL Admin Faculty Create Courses"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Pentadbir Fakulti Meluluskan E-CONTENT"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Fungsi Admin HEP"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="EL Super Admin Branch User"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Pelatih Publish E-CONTENT"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Muat Naik E-CONTENT Dalam LMS"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Cara Buka TSP"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Super Admin Unit"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/mButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Pendaftaran Akaun Baru Untuk Peserta Luar"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:srcCompat="@drawable/ilsaspngg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:text="This application is still under development mode"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
